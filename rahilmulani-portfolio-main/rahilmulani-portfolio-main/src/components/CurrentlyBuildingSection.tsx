@@ -143,7 +143,7 @@ const CurrentlyBuildingSection = () => {
                 {/* CTA */}
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button variant="hero" size="lg" className="bg-gradient-to-r from-accent to-primary hover:opacity-90" asChild>
-                    <a href="verblyn-ai.vercel.app" target="_blank" rel="noopener noreferrer">
+                    <a href="https://verblyn-ai.vercel.app/" target="_blank" rel="noopener noreferrer">
                       Visit Verblyn.AI
                       <Rocket className="ml-2 h-4 w-4" />
                     </a>

@@ -3,13 +3,12 @@ import ScrollReveal from './ScrollReveal';
 
 const experiences = [
   {
-    title: 'Founder & Builder',
-    company: 'Verblyn.AI',
-    location: 'Pune, India',
+    title: 'Business Analyst Intern',
+    company: 'UV-Netware',
+    location: 'Remote, India',
     period: 'Present',
-    description: 'Building an AI-powered platform that helps students and professionals speak English confidently through guided speaking practice and intelligent feedback. Leveraging NLP and speech recognition to deliver personalized learning experiences, real-time pronunciation analysis, and adaptive conversation simulations.',
-    highlights: ['AI/ML', 'NLP', 'EdTech', 'Product Development', 'Entrepreneurship'],
-    isFounder: true,
+    description: ' Gathering and documenting business requirements from client stakeholders, translating operational pain points into structured BRDs and process maps. Analyzing business workflows to identify inefficiencies and deliver data-backed recommendations for operational improvement across 3+ client accounts.',
+    highlights: ['Business Inteligence', 'Advanced Excel', 'PowerBI', 'Statistical Analysis', 'Stakeholder Communication'],
   },
   {
     title: 'Data Analyst Intern',
@@ -26,6 +25,14 @@ const experiences = [
     period: 'Nov 2024 – Jan 2025',
     description: 'Contributed to feature development, debugging, and deployment for Bluestock, a fintech app serving 200,000+ active users and generating 15,000,000+ impressions.',
     highlights: ['Fintech', 'App Development', 'Debugging'],
+  },
+    {
+    title: 'Data Analyst Intern',
+    company: 'VI ( AICTE )',
+    location: 'Virtual',
+    period: 'Oct 2024 – Nov 2024',
+    description: 'Developed and analyzed data-driven solutions using AI-LLMs, performed data cleaning and exploratory data analysis (EDA), built insights dashboards, and generated actionable business insights.',
+    highlights: ['Python', 'Pandas', 'Power BI', 'AI-LLMs', 'Data Storytelling'],
   },
   {
     title: 'Web Development Intern',

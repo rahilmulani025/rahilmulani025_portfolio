@@ -16,6 +16,40 @@ export interface Project {
 }
 
 export const projects: Project[] = [
+    {
+    id: 'apsez-Performace-analysis',
+    title: 'Port Logistics & Energy Performance Analysis - Adani Ports ',
+    impact: 'Performed EDA on 500+ movie records to identify genre-wise performance patterns and user preference insights',
+    description: 'Analyzed trends in popularity, ratings, genres, and languages using Python. Created visualizations including bar charts, scatter plots, heatmaps, line charts, and word clouds.',
+    tech: ['Python', 'Pandas', 'Seaborn', 'Matplotlib', 'SQL'],
+    color: 'from-primary/20 to-primary/5',
+    githubLink: 'https://github.com/rahilmulani025/Movie-analysis',
+    details: {
+      overview: 'A comprehensive exploratory data analysis project focused on understanding movie industry trends, audience preferences, and performance patterns across different genres and languages.',
+      challenges: [
+        'Handling missing and inconsistent data across 500+ movie records',
+        'Identifying meaningful patterns in multi-dimensional data',
+        'Creating visualizations that effectively communicate insights',
+      ],
+      solutions: [
+        'Implemented robust data cleaning pipelines using Pandas',
+        'Applied statistical analysis to identify correlations and trends',
+        'Designed interactive visualizations with Seaborn and Matplotlib',
+      ],
+      keyFeatures: [
+        'Genre-wise performance analysis with comparative metrics',
+        'Popularity and rating trend visualization over time',
+        'Language distribution and regional preference mapping',
+        'Word cloud generation for title and description analysis',
+        'Correlation heatmaps for numerical features',
+      ],
+      results: [
+        'Identified top-performing genres by popularity and ratings',
+        'Discovered seasonal patterns in movie releases',
+        'Provided actionable insights for content strategy decisions',
+      ],
+    },
+  },
   {
     id: 'movie-dataset-analysis',
     title: 'Movie Dataset Analysis',

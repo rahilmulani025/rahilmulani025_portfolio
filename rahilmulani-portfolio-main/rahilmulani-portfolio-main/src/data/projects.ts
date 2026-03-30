@@ -16,40 +16,45 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-    {
-    id: 'apsez-Performace-analysis',
-    title: 'Port Logistics & Energy Performance Analysis - Adani Ports ',
-    impact: 'Performed EDA on 500+ movie records to identify genre-wise performance patterns and user preference insights',
-    description: 'Analyzed trends in popularity, ratings, genres, and languages using Python. Created visualizations including bar charts, scatter plots, heatmaps, line charts, and word clouds.',
-    tech: ['Python', 'Pandas', 'Seaborn', 'Matplotlib', 'SQL'],
-    color: 'from-primary/20 to-primary/5',
-    githubLink: 'https://github.com/rahilmulani025/Movie-analysis',
-    details: {
-      overview: 'A comprehensive exploratory data analysis project focused on understanding movie industry trends, audience preferences, and performance patterns across different genres and languages.',
-      challenges: [
-        'Handling missing and inconsistent data across 500+ movie records',
-        'Identifying meaningful patterns in multi-dimensional data',
-        'Creating visualizations that effectively communicate insights',
-      ],
-      solutions: [
-        'Implemented robust data cleaning pipelines using Pandas',
-        'Applied statistical analysis to identify correlations and trends',
-        'Designed interactive visualizations with Seaborn and Matplotlib',
-      ],
-      keyFeatures: [
-        'Genre-wise performance analysis with comparative metrics',
-        'Popularity and rating trend visualization over time',
-        'Language distribution and regional preference mapping',
-        'Word cloud generation for title and description analysis',
-        'Correlation heatmaps for numerical features',
-      ],
-      results: [
-        'Identified top-performing genres by popularity and ratings',
-        'Discovered seasonal patterns in movie releases',
-        'Provided actionable insights for content strategy decisions',
-      ],
-    },
+  {
+  id: 'apsez-performance-analysis',
+  title: 'Port Logistics & Renewable Energy Performance Analysis — Adani Ports (APSEZ)',
+  impact: 'Built a 7-sheet Excel statistical model and Power BI dashboard analyzing 450 MMT cargo, ₹860B revenue, and 15.5 GW renewable energy across 10 ports for India\'s largest port operator',
+  description: 'Conducted statistical and business intelligence analysis on Adani Ports & SEZ using Excel Data Analysis ToolPak and Power BI. Applied ANOVA, Chi-Square, Normal Distribution, and FORECAST.LINEAR to answer 12 strategic business questions and deliver a CFO-level analytical report.',
+  tech: ['Microsoft Excel', 'Power BI', 'Statistical Analysis', 'ANOVA', 'Data Visualization', 'Business Intelligence'],
+  color: 'from-primary/20 to-primary/5',
+  githubLink: 'https://github.com/rahilmulani025/adani-ports-analysis',
+  details: {
+    overview: 'A comprehensive statistical and business intelligence analysis of Adani Ports and Special Economic Zone (APSEZ) — India\'s largest port operator with 27% national market share. The project covered port logistics performance, regional revenue efficiency, renewable energy capacity, and cargo demand forecasting across 10 ports and 4 regions. Delivered a 12-question strategic report reviewed at CFO level.',
+    challenges: [
+      'Resolving data inconsistencies across multiple sources including the FY24 Annual Report, port-level cargo data, and manager-clarified monthly datasets',
+      'Running valid ANOVA with limited regional observations (n=1 per group) — resolved using 3-year repeated measures across FY2023, FY2024, FY2025',
+      'Reconciling port-level cargo totals (345 MMT for 5 ports) with full network KPI of 420 MMT, and statistical monthly dataset (475 MMT) with audited annual figure (450 MMT)',
+      'Proportionally distributing regional revenue and energy values to port level in the absence of direct port-wise financial data',
+    ],
+    solutions: [
+      'Built a 7-sheet Excel workbook with cross-sheet formula linking — all downstream sheets (Descriptive Stats, ANOVA, Chi-Square, Normal Distribution, Forecasting, BI Dataset) auto-update from a single Raw Data source',
+      'Applied ANOVA Single Factor via Excel Data Analysis ToolPak using 3-year regional data, achieving F = 32.48 and p = 0.0000789 — statistically significant at 99.99% confidence',
+      'Used FORECAST.LINEAR for both annual projections (FY2026 = 514 MMT, FY2027 = 570 MMT) and 3-month monthly forecast (Jan–Mar 2026)',
+      'Designed a Power BI dashboard with 5 charts, 3 KPI cards, and a dedicated statistical results panel pulling live from Sheet 7 of the Excel model',
+    ],
+    keyFeatures: [
+      'Normal Distribution analysis: Z-score = 1.614 for 43 MMT threshold, P(X > 43) = 5.32%',
+      'ANOVA Single Factor: F = 32.48, p = 0.0000789 — regional cargo differences confirmed significant',
+      'Chi-Square Test: χ² = 21.38, p ≈ 0.0000038 — Industrial customers statistically proven to drive bulk cargo',
+      'Regional revenue efficiency analysis: North = ₹2.40B/MMT (highest), West = ₹1.75B/MMT (lowest)',
+      'Port concentration analysis: Mundra = 52.17% of listed cargo — concentration risk identified',
+      'Annual and monthly FORECAST.LINEAR projections with ±10% confidence bands',
+      'Proportional port-level revenue and energy distribution using manager-provided formula',
+    ],
+    results: [
+      'Identified North Region as highest revenue-efficiency market at ₹2.40B/MMT — 37% more efficient than West, enabling targeted capex recommendation',
+      'Flagged Mundra Port\'s 52% cargo concentration as a critical network risk, recommending East coast diversification strategy',
+      'Projected capacity saturation at 627 MMT installed capacity by FY2028, triggering immediate expansion planning recommendations for Vizhinjam and Haldia terminals',
+      'Delivered a 12-question strategic report to CFO level with data-backed recommendations on hiring, capacity planning, peak demand strategy, and 5-year priorities',
+    ],
   },
+},
   {
     id: 'movie-dataset-analysis',
     title: 'Movie Dataset Analysis',

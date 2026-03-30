@@ -23,7 +23,7 @@ export const projects: Project[] = [
   description: 'Conducted statistical and business intelligence analysis on Adani Ports & SEZ using Excel Data Analysis ToolPak and Power BI. Applied ANOVA, Chi-Square, Normal Distribution, and FORECAST.LINEAR to answer 12 strategic business questions and deliver a CFO-level analytical report.',
   tech: ['Microsoft Excel', 'Power BI', 'Statistical Analysis', 'ANOVA', 'Data Visualization', 'Business Intelligence'],
   color: 'from-primary/20 to-primary/5',
-  githubLink: 'https://github.com/rahilmulani025/adani-ports-analysis',
+  githubLink: 'https://github.com/rahilmulani025/Port_logistics_Performance_Analyis-Adani_ports',
   details: {
     overview: 'A comprehensive statistical and business intelligence analysis of Adani Ports and Special Economic Zone (APSEZ) — India\'s largest port operator with 27% national market share. The project covered port logistics performance, regional revenue efficiency, renewable energy capacity, and cargo demand forecasting across 10 ports and 4 regions. Delivered a 12-question strategic report reviewed at CFO level.',
     challenges: [
